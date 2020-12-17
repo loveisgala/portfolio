@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Gabriela Kozakievich</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+    <!-- Font Awesome icons -->
+    <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet"
+        type="text/css" />
+    
+    
+    <!-- CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+    <!--Leaflet-->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+    crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+   integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+   crossorigin=""></script>
+</head>
+
+<body id="page-top">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top"><i class="fas fa-robot"></i></a>
+            <button
+                class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded"
+                type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
+                aria-expanded="false" aria-label="Toggle navigation">
+                Menu
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item mx-0 mx-lg-1">
+                        <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item mx-0 mx-lg-1">
+                        <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a>
+                    </li>
+                    <li class="nav-item mx-0 mx-lg-1">
+                        <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Masthead-->
+    <header class="masthead bg-back text-white text-center">
+        <div class="container d-flex align-items-center flex-column">
+            <!-- Masthead Avatar Image-->
+            <img class="masthead-avatar mb-5" src="assets/img/profilepic2.png" alt="" />
+            <!-- Masthead Heading-->
+            <h1 class="masthead-heading mb-0">
+                Hi<span>,</span> I'm Gala<span>.</span>
+            </h1>
+            <!-- Icon Divider-->
+            <div class="divider-custom divider-light">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon">
+                    <i class="fas fa-laptop-code"></i>
+                </div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <!-- Masthead Subheading-->
+            <p class="masthead-subheading font-weight-light mb-0">
+                Front-End Developer
+            </p>
+        </div>
+    </header>
+    <!-- Portfolio Section-->
+    <section class="page-section bg-light portfolio" id="portfolio">
+        <div class="container">
+            <!-- Portfolio Section Heading-->
+            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">
+                Portfolio
+            </h2>
+            <!-- Icon Divider-->
+            <div class="divider-custom">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-code"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <!-- Portfolio Grid Items-->
+            <div class="row justify-content-center">
+                <!-- Portfolio Item 1-->
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white">
+                                <i class="fas fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="assets/img/portfolio/shopping.png" alt="" />
+                    </div>
+                </div>
+                <!-- Portfolio Item 2-->
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white">
+                                <i class="fas fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="assets/img/portfolio/palindrome.png" alt="" />
+                    </div>
+                </div>
+                <!-- Portfolio Item 3-->
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white">
+                                <i class="fas fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="assets/img/portfolio/todolist.png" alt="" />
+                    </div>
+                </div>
+                <!-- Portfolio Item 4-->
+                <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
+                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white">
+                                <i class="fas fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="assets/img/portfolio/webcamp.png" alt="" />
+                    </div>
+                </div>
+                <!-- Portfolio Item 5-->
+                <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
+                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal5">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white">
+                                <i class="fas fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="assets/img/portfolio/bienes.png" alt="" />
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <!-- About Section-->
+    <section class="page-section bg-primary text-white mb-0" id="about">
+        <div class="container">
+            <!-- About Section Heading-->
+            <h2 class="page-section-heading text-center text-uppercase text-white">
+                About
+            </h2>
+            <!-- Icon Divider-->
+            <div class="divider-custom divider-light">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="far fa-smile"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <!-- About Section Content-->
+            <div class="row">
+                <div class="col-lg-4 ml-auto">
+                    <p class="lead">
+                        My name is Gabriela Kozakievich, and I am a Junior Front-End Developer, based in Buenos Aires, soon in Barcelona, ​​Spain. I started studying programming in 2019 after working for several years in the hotel industry. I was always self-taught and passionate about technology. So I've been spending my hours studying and learning new tools for a year now. I tried to carry out some projects on my own, so I think I am ready to collaborate and be part of a team!
+                    </p>
+                </div>
+                <div class="col-lg-4 mr-auto">
+                    <p class="lead">
+                        The main areas of my expertise are HTML(5), CSS(3) and JavaScript (native and jQuery).
+                        I am motivated, enthusiastic and well organised, with a keen eye for beautiful design, primarily based around user interfaces.
+                        Aside from web development, I enjoy working on pieces of art and reading physics books.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section-->
+    <section class="page-section bg-light" id="contact">
+        <div class="container">
+            <!-- Contact Section Heading-->
+            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">
+                Contact Me
+            </h2>
+            <!-- Icon Divider-->
+            <div class="divider-custom">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon">
+                    <i class="fas fa-exclamation"></i>
+                </div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <!-- Contact Section Form-->
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div class="container text-center">
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://github.com/loveisgala"
+                            target="_blank" id="profile-link">
+                            <i class="fab fa-github"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="gabriela.gk@hotmail.com" target="_blank"
+                            id="profile-mail"><i class="fas fa-envelope"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/ga-la/"
+                            target="_blank" id="profile-linkedin"><i class="fab fa-fw fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer-->
+    <footer class="footer text-center">
+        <div class="container">
+            <div class="row">
+                <!-- Footer Location-->
+                <div class="col my-auto">
+                    <h4 class="text-uppercase mb-4">
+                        Location <i class="fas fa-map-marker-alt"></i>
+                    </h4>
+                    <p class="lead mb-0">
+                        Currently in:
+                        <br />
+                        Buenos Aires, Argentina.
+                    </p>
+                </div>
+            
+            <div class="col" id="mapid"></div>
+        </div>
+        </div>
+    </footer>
+    <!-- Copyright Section-->
+    <div class="copyright py-4 text-center text-white">
+        <div class="container"><small>2020</small></div>
+    </div>
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes)-->
+    <div class="scroll-to-top d-lg-none position-fixed">
+        <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top"><i
+                class="fa fa-chevron-up"></i></a>
+    </div>
+    <!-- Portfolio Modals-->
+    <!-- Portfolio Modal 1-->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog"
+        aria-labelledby="portfolioModal1Label" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                </button>
+                <div class="modal-body text-center">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0"
+                                    id="portfolioModal1Label">
+                                    Shopping Cart
+                                </h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon">
+                                        <i class="fas fa-code"></i>
+                                    </div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Image-->
+
+                                <a href="https://shopping-list.loveisgala.vercel.app/" class="mb-5 container" target="_blank"><img
+                                        class="img-fluid rounded mb-5" src="assets/img/portfolio/shopping1.png"
+                                        alt="" /></a>
+                                <!-- Portfolio Modal - Text-->
+                                <a href="https://shopping-list.loveisgala.vercel.app/"
+                                target="_blank" class="mb-5 container">https://shopping-list.loveisgala.vercel.app/</a>
+                                <div class="container text-left mt-5 mb-5">
+                                    <p class="font-weight-bolder">⚙️ HTML5 - CSS3 - JavaScript - Bootstrap </p>
+                                    <p>
+                                        This project is to show the action of a shopping cart made
+                                        with JavaScript, it shows the selected products and the
+                                        total to pay.
+                                    </p>
+                                    <p>
+                                        It contains buttons to add or subtract items from the list
+                                        and the cart is emptied when nothing is selected, or
+                                        reached 0.
+                                    </p>
+                                    <p>
+                                        Product information comes from an array of objects in a
+                                        separate file.
+                                    </p>
+                                    <p>The theme is a store that sells decorative items. The design is light-colored,
+                                        fully responsive, mostly done with Bootstrap.</p>
+                                </div>
+                                <button class="btn btn-primary" data-dismiss="modal">
+                                    <i class="fas fa-times fa-fw"></i>
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio Modal 2-->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog"
+        aria-labelledby="portfolioModal2Label" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                </button>
+                <div class="modal-body text-center">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0"
+                                    id="portfolioModal2Label">
+                                    Palindrome Checker
+                                </h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon">
+                                        <i class="fas fa-code"></i>
+                                    </div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                  <!-- Portfolio Modal - Image-->
+                                  <a href="https://palindrome-checker.vercel.app/" target="_blank"><img
+                                    class="img-fluid rounded mb-5" src="assets/img/portfolio/palindrome1.png"
+                                    alt="" /></a>
+                            <!-- Portfolio Modal - Text-->
+
+                            <a href="https://palindrome-checker.vercel.app/"
+                               target="_blank" class="mb-5 container">https://palindrome-checker.vercel.app/</a>
+
+                            <div class="container text-left mt-5 mb-5">
+                                <p class="font-weight-bolder">⚙️ HTML5 - CSS3 - JavaScript</p>
+                                <p>
+                                    👾I wanted to visually recreate a JavaScript exercise, "palindrome checker" from freeCodeCamp
+                                    <p> It contains the solution for this exercise on the code:</p>
+                                <a href="https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/javascript-algorithms-and-data-structures-projects/palindrome-checker" target="_blank">freecodecamp.org - palindrome-checker</a>    
+                                </p>
+                              
+                            </div>
+                            <button class="btn btn-primary" data-dismiss="modal">
+                                <i class="fas fa-times fa-fw"></i>
+                                Close
+                            </button>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio Modal 3-->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog"
+        aria-labelledby="portfolioModal3Label" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                </button>
+                <div class="modal-body text-center">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0"
+                                    id="portfolioModal3Label">
+                                    To Do List
+                                </h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon">
+                                        <i class="fas fa-code"></i>
+                                    </div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Image-->
+                                <div class="container"> <a href="https://to-do-list.loveisgala.vercel.app/" target="_blank"><img
+                                        class="img-fluid rounded mb-5" src="assets/img/portfolio/todolist1.png"
+                                        alt="" /></a></div>
+                                <!-- Portfolio Modal - Text-->
+
+                                <a href="https://to-do-list.loveisgala.vercel.app/"
+                                target="_blank" class="mb-5 container">https://to-do-list.loveisgala.vercel.app</a>
+
+                                <div class="container text-left mt-5 mb-5">
+                                    <p class="font-weight-bolder">⚙️ HTML5 - CSS3 - Vanilla JavaScript</p>
+                                    <p>
+                                        ○ You can write activities to do and add them by pressing
+                                        Enter ✍️.
+                                    </p>
+                                    <p>○ To delete an activity, press ✘.</p>
+                                    <p>○ To mark an item as done, click on the circle ⚪.</p>
+                                    <p>
+                                        ○ It has filters to separate items by: All, Active and
+                                        Complete.
+                                    </p>
+                                    <p>○ Also has a night mode 🌙 and an items countdown.</p>
+                                </div>
+                                <button class="btn btn-primary" data-dismiss="modal">
+                                    <i class="fas fa-times fa-fw"></i>
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio Modal 4-->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog"
+        aria-labelledby="portfolioModal4Label" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                </button>
+                <div class="modal-body text-center">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0"
+                                    id="portfolioModal4Label">
+                                  gdl - WebCamp Website
+                                </h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon">
+                                        <i class="fas fa-code"></i>
+                                    </div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Image-->
+                                <a href="https://webcamp-conf.vercel.app/" target="_blank"><img
+                                    class="img-fluid rounded mb-5" src="assets/img/portfolio/webcamp1.png"
+                                    alt="" /></a>
+                            <!-- Portfolio Modal - Text-->
+
+                            <a href="https://webcamp-conf.vercel.app/"
+                            target="_blank" class="mb-5 container">https://webcamp-conf.vercel.app/</a>
+
+                            <div class="container text-left mt-5 mb-5">
+                                <p class="font-weight-bolder">⚙️ HTML5 Boilerplate - CSS3 - JavaScript - jQuery - JS Plugins</p>
+                                <p>
+                                    Prototype of a web page for an upcoming conference.
+                                </p>
+                                <p>On the <a href="https://webcamp-conf.vercel.app/registro.html">register section </a>you can calculate ticket and items prices before pay.</p>
+                                <p>It has a modern design in which the following plugins were used:</p>
+                                <p>○ leaflet.js - map visualization.</p>
+                                <p>○ countdown.js - countdown.</p>
+                                <p>○ lightbox.js - gallery display.</p>
+                                <p>○ animate numbers.js - letters animation</p>
+                                <p>○ colorbox</p>
+                                <p>○ fancybox</p>
+                            </div>
+                            <button class="btn btn-primary" data-dismiss="modal">
+                                <i class="fas fa-times fa-fw"></i>
+                                Close
+                            </button>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio Modal 5-->
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog"
+        aria-labelledby="portfolioModal5Label" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                </button>
+                <div class="modal-body text-center">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0"
+                                    id="portfolioModal5Label">
+                                    Real State
+                                </h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon">
+                                        <i class="fas fa-code"></i>
+                                    </div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <a href="https://web-bienes-raices.vercel.app/" target="_blank"><img
+                                        class="img-fluid rounded mb-5" src="assets/img/portfolio/bienes1.png"
+                                        alt="" /></a>
+                                <!-- Portfolio Modal - Text-->
+    
+                                <a href="https://web-bienes-raices.vercel.app/"
+                                target="_blank" class="mb-5 container">https://web-bienes-raices.vercel.app/</a>
+    
+                                <div class="container text-left mt-5 mb-5">
+                                    <p class="font-weight-bolder">⚙️ HTML5 - CSS3</p>
+                                    <p>
+                                        Project based on Fullstack Dev Course from Udemy.
+                                    </p>
+                                
+                                </div>
+                                <button class="btn btn-primary" data-dismiss="modal">
+                                    <i class="fas fa-times fa-fw"></i>
+                                    Close 
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Bootstrap core JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Third party plugin JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <!-- Contact form JS-->
+    <script src="assets/mail/jqBootstrapValidation.js"></script>
+    <script src="assets/mail/contact_me.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+    
+</body>
+
+</html>
